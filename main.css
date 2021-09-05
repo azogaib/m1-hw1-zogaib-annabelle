@@ -58,6 +58,10 @@ main h2 {
     padding: 2%;
 }
 
+main p {
+    padding: 5px;
+}
+
 footer {
     margin: 5%;
 }
