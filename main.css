@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display: block;
+}
+
+.Site {
+    display: flex;
+    min-height: 95vh;
+    flex-direction: column;
+  }
+  
+  .Site-content {
+    flex: 1;
+  }
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Kaisei HarunoUmi', serif;
+    color: #BF7D3B;
+}
+
+p, li, ul {
+    font-family: 'Montserrat', sans-serif;
+    color: #d4a373;
+}
+
+body {
+    background-color: #fefae0;
+    text-align: center;
+    padding: 4%;
+}
+
+ul {
+    padding: 4% 50px;
+}
+
+li {
+    list-style-type: none;
+    margin: 0 15px;
+    display: inline;
+}
+
+li:hover {
+    color: #ccd5ae;
+    text-decoration: underline;
+    transition: .5s;
+}
+
+main {
+    padding: 5%;
+}
+
+main h2 {
+    padding: 2%;
+}
+
+footer {
+    margin: 5%;
+}
